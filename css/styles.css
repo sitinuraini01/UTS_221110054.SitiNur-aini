@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+}
+
+.navbar{
+    padding: 1rem;
+}
+.navbar-brand{
+    color: burlywood;
+    font-size: 20px;
+    font-family: "Jaro", sans-serif;
+    font-style: normal;
+}
+.navbar-brand span{
+    color: rgb(97, 48, 48);
+    font-size: 10px;
+}
+.nav-link{
+    color: brown;
+    font-family: "Jaro", "sans-serif";
+}
+.nav-link:hover{
+    color: rgb(97, 48, 48);
+}
+.dropdown-item {
+    color: rgb(97, 48, 48);
+    font-family: "Jaro", "sans-serif";
+}
+.dropdown-item:hover{
+    color: brown;
+    background-color: burlywood;
+}
+.btn{
+    font-family: "Jaro", "sans-serif";
+    background-color: burlywood;
+    color: brown;
+    border-color: burlywood;
+}
+.btn:hover{
+    background-color: rgb(97, 48, 48);
+    border-color:  rgb(97, 48, 48);
+}
+.text-center{
+    padding: 100px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.blockquote{
+    color: brown;
+    font-weight: bold;
+}
+.blockquote-footer{
+    color: rgb(97, 48, 48);
+}
+.kontainer-left{
+    color: brown;
+    font-family: "Jaro", "sans-serif";
+    font-size: 20px;
+}
+
+.row{
+    font-family: "Nunito Sans", sans-serif;
+}
+.carousel{
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 3em;
+}
+.card-footer{
+    background-color: beige;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.icon-link{
+    color: rgb(56, 55, 55);
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    text-decoration: none;
+    font-size: small;
+    font-family: "Nunito Sans", sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+.icon-link :hover{
+    color: brown;
+}
+.footer-bottom{
+    background: white;
+    width: 100vw;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/*link*/
+.link-offset-2{
+    color: rgb(56, 55, 55);
+    font-size: small;
+    font-family: "Nunito Sans", sans-serif;
+}
+.link-offset-2:hover{
+    color: brown;
+}
+
+.card{
+    font-family: "Nunito Sans", sans-serif;
+}
+.card-title{
+    font-weight: bold;
+}
+.icon-contact{
+    color: brown;
+}
+.form-label{
+    color: brown;
+}
+.list-group-item{
+    border: none;
+}
+input[type="checkbox"]{
+    background-color: burlywood;
+    border: none;
+}
+input[type="checkbox"]:hover{
+    background-color: brown;
+}
+input[type="checkbox"]:checked{
+    background-color: brown;
+}
+
+input[type="radio"]{
+    background-color: brown;
+    border: none;
+}
+input[type="radio"]:hover{
+    background-color: burlywood;
+}
+input[type="radio"]:checked{
+    background-color: burlywood;
+}
+option::selection{
+    background-color: brown;
+}
